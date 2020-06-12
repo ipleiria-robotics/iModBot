@@ -1,5 +1,5 @@
 
-/* Revision 2 */
+/* Revision 3 */
 
 #ifndef iModBot_h
 #define iModBot_h
@@ -9,29 +9,35 @@
 #include "E32_PC0.h"  //to controll ESP32 pulse counter module (unit 0)
 #include "E32_PC1.h"  //to controll ESP32 pulse counter module (unit 1)
 
+// to do: remove extern declaration and move the autoDrive(byte) function to the public of iModBot class, test changes afterwards.
 extern byte autoDrive(byte);  //to check the sensors and do autoDrive related tasks
-//extern void _config();  // private function to configure the pins
 
+// ISR functions can't be associated with a class, they are asynchronous. They can still interact with class functions and variables by using the scope resolution operator and other tools.
 void IRAM_ATTR _think(); // private function to handle interrupts triggered by the IR sensors, used by the auto driving functionality
-void IRAM_ATTR onTimer();
+void IRAM_ATTR onTimer(); // 500 ms timer used to adjust the wheel's speed, activated by the user by calling "enSpeedAdj()" function.
 
 class iModBot
 {
   public:
-  
+    /*  ATTENTION */
+    /* There are several variables declared public but none of them should be set by the user.
+       They were declared public just so the ISR functions could access them.
+       User can read this variables but it is advised not to change them.
+    */
+
     //functions to edit pin configuration, must be called before begin()
     void editWheelPin(uint8_t , uint8_t );
     void editMotorPin(uint8_t , uint8_t , uint8_t , uint8_t );
     void editUltrasonicPin(uint8_t , uint8_t );
     void editSensorPin(uint8_t , uint8_t , uint8_t , uint8_t , uint8_t , uint8_t , uint8_t );
 
-    void setStopDistance(byte );
+    void setStopDistance(byte );  // distance read by the ultrasonic sensor at which the robot will stop, valid only for the incorporated line following feature
 
-    void endAutoDrive();  // detaches the interruptions that call the _think() function
+    void endAutoDrive();  // detach the external interruptions that call the _think() function
     void beginAutoDrive();  // attaches the interruptions that call the _think() function
-    void begin(); // Does the pin and PWM configuration
+    void begin(); // Does the pin, PWM and pulse counter module configuration
 
-    byte distance();  
+    byte distance();  // returns a byte holding the measured distance (in centimeter) by the HC-SR04 Ultrasonic sensor
     void turnLeft(uint16_t ); //turns n degrees
     void turnRight(uint16_t );  //turns n degrees
     
@@ -127,9 +133,9 @@ class iModBot
 
   private:
 
-    bool _checkMinSpeed();
-    void _config();
-    bool _ec(); //extra-check, private function used by auto driving functionality
+    bool _checkMinSpeed();  // Check the minimun duty-cycle needed to turn both wheels
+    void _config();   // set's the needed input and output pins.
+    bool _ec(); // extra-check, private function used by auto driving functionality
 
     //Next three variables are self explanatory, they are changed by the functions mentioned before
     bool _disableUltrasonicSensor = 0;  

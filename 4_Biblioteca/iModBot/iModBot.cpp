@@ -830,10 +830,14 @@ byte iModBot::autoDrive(byte order)
     }
   }
 
-  //Clear teh encoders value in the end
+  //Clear the encoders value in the end
   //If the encoders value aren't cleared the code may fail to adjust wheels speed
 
-  //clearEncoderCount();
+  // The precess to match wheels speed in this function relies on clearing the pulses read by the pulse counter module
+  // It won't clear the pulses read if a different process is used to match the hweels speed 
+  if(!_RPSenabled){ 
+    clearEncoderCount();
+  }
 
   return returnFlag;
   /*
@@ -1494,12 +1498,12 @@ void IRAM_ATTR onTimer()
 
   portENTER_CRITICAL_ISR(&timerMux);
 
-  static byte feed = 0;
+  static byte feed = 0; //to manage small PWM adjustments
   if (iModBot::_RPSenabled)
   {
     // Since other parts of the library may disable the interrupts
     // two variables will be used to determine the enlapsed time
-    static unsigned long lastCheck = 0;   //tempo 
+    static unsigned long lastCheck = 0;    
     unsigned long enlapsedTime = millis() - lastCheck;
 
 
@@ -1527,27 +1531,18 @@ void IRAM_ATTR onTimer()
     lastCheck = millis();
 
     /*
-    * Obter as rotações em RPS
+    * Get speed in RPS
     * Fórmula:
     *  f = n * v(rps)
     *  v(rps) = f/v
     *  f = pulsos/tempo
     *  n = numero de ranhuras
-    *  
-    *  É necessário também verificar se o tempo decorrido não é zero.
-    *  
     */
     if ((enlapsedTime != 0))
     {
-      Ls = ((Lp / (enlapsedTime / 1000.0)) / 40.0) * 100; //    Ls = (Lp / 40.0 ) / ( enlapsedTime / 1000.0 ) ;
+      Ls = ((Lp / (enlapsedTime / 1000.0)) / 40.0) * 100; // Calculate speed
       Rs = ((Rp / (enlapsedTime / 1000.0)) / 40.0) * 100;
     }
-
-    Serial.print("Left: ");
-    Serial.print(Ls);
-    Serial.print("\t");
-    Serial.print("Right: ");
-    Serial.println(Rs);
 
     iModBot::leftRPS = Ls;  // Copy measured speed to class variable
     iModBot::rightRPS = Rs;
@@ -1555,10 +1550,21 @@ void IRAM_ATTR onTimer()
     byte __rPWM = 0, __lPWM = 0;  // Declare local variables to adjust PWM
     if (iModBot::_canAdjustRPS ) // If it is allowed to adjust the speed
     {
-      __rPWM = iModBot::_rPWM;  
+      __rPWM = iModBot::_rPWM;  // Get current PWM value from the library class variable.
       __lPWM = iModBot::_lPWM;
 
-      // To detect small speed variations and do small speed adjustments 
+      // To detect small speed variations and do small PWM speed adjustments the variable "llb" and "feed" are used
+      // Most Significant Bit (MSB) means this feature (to do small PWM adjustments) is activated (1)
+      // Second MSB is always zero
+      /*  Third, fourth and fifth MSB are used to know the directions that the left wheel PWM was adjusted, in last three times this ISR ran
+            - a zero (0) means the PWM was decreased;
+            - a one (1) means the PWM was increased.
+            - bits are shifted to left (<<).
+            - The current adjustment (be it increase (1) or decrease (0)) is always added from right to left.
+              So the number (bit) at the far right (of the bits destined to the left wheel) is always the last operation. 
+
+          The three less significant bits (in other words, the three bits on the far right of the byte) are destined to the right wheel, ditto.
+      */ 
       byte llb = feed, rlb = (feed & 0b00000111);
       llb = llb >> 3;
       llb &= 0b00000111;
@@ -1620,7 +1626,8 @@ void IRAM_ATTR onTimer()
         rlb = rlb << 1;
         rlb &= 0xFE;
       }
-      //Serial.println(llb, BIN);
+      
+      //
       feed &= 0;
       rlb &= 0b00000111;
       llb &= 0b00000111;
@@ -1668,6 +1675,7 @@ void IRAM_ATTR onTimer()
       static byte fasterWheel = 0; //Which wheel is faster? 0 means none
       const byte offset = 1; // PWM offset, allows one wheel to go faster by the specified PWM amount. 
 
+      //if we don't know wi«hich wheel is faster...
       if(fasterWheel==0){
         if(Lp > (Rp + offset) ){ //Left wheel is fater
           fasterWheel=1; //left
@@ -1675,18 +1683,18 @@ void IRAM_ATTR onTimer()
           fasterWheel=2; //Right
         }
       }
-      else
+      else  // if we know which wheel is faster
       {
-        __rPWM=iModBot::_rPWM;
+        __rPWM=iModBot::_rPWM;  // Get current wheel PWM values from library class
         __lPWM=iModBot::_lPWM;
         
         Ls = ((Lp / (enlapsedTime / 1000.0)) / 40.0) * 100; 
         Rs = ((Rp / (enlapsedTime / 1000.0)) / 40.0) * 100;
         
-        if(Ls > Rs){  // right now, Left wheel is faster
+        if(Ls > Rs){  // if right now the Left wheel is going faster
           if(fasterWheel==1){ // if left wheel was the fastest one already
-            __lPWM = (__lPWM > 1) ? __lPWM - 1 : __lPWM; // Prevent underflow
-            iModBot::_lPWM=__lPWM;
+            __lPWM = (__lPWM > 1) ? __lPWM - 1 : __lPWM; // we decrease the left's wheel speed, ternary operator used to prevent underflow
+            iModBot::_lPWM=__lPWM;  // we update the current PWM value to the library class
           }else{  // if right wheel was the fastest one, but now it's not
             __rPWM = (__rPWM < 255) ? __rPWM + 1 : __rPWM; // Prevent overflow
             iModBot::_rPWM=__rPWM;
@@ -1700,14 +1708,8 @@ void IRAM_ATTR onTimer()
             iModBot::_rPWM=__rPWM;
           }
         }
-        /* Serial.print(fasterWheel);
-        Serial.print("\t");
-        Serial.print("L: ");
-        Serial.print(__lPWM);
-        Serial.print("\t");
-        Serial.print("R: ");
-        Serial.println(__rPWM); */
 
+        //The actual hardware PWM adjustment
         switch (iModBot::_mov)
         {
         case 0x11:
@@ -1746,98 +1748,6 @@ void IRAM_ATTR onTimer()
     }
 
   }
-  /* else if( (!iModBot::_pwmAdjustDisabled) && (iModBot::_canAdjustPWM) ) // --------
-  {
-    uint Rs = 0, Ls = 0; // velocidade em RPS de cada roda
-
-    const byte offset = 1; // PWM offset, allows one wheel to go faster by the specified PWM amount. 
-    static byte fasterWheel = 0; //Which wheel is faster? 0 means none
-    int16_t PWMoffset = 0; //PWM to be added or subtracted
-
-    static unsigned short prevLp = 0, prevRp = 0; //pulsos medidos no fim da ultima medição 
-    unsigned short Lp = 0, Rp = 0; // pulsos decorridos desde ultima medição
-
-    //detect if encoder values have been cleared
-    if ((iModBot::getLeftEncoderCount() < prevLp) || (iModBot::getRightEncoderCount() < prevRp))
-    {
-      Lp = iModBot::getLeftEncoderCount();
-      Rp = iModBot::getRightEncoderCount();
-    }
-    else  // If not, read the gap
-    {
-      Lp = iModBot::getLeftEncoderCount() - prevLp;
-      Rp = iModBot::getRightEncoderCount() - prevRp;
-    }
-
-    if(fasterWheel==0){
-      if(Lp > (Rp + offset) ){ //Left wheel is fater
-        fasterWheel=1; //left
-      }else if(Rp > (Lp + offset) ){ //Right wheel is faster
-        fasterWheel=2; //Right
-      }
-    }
-    else
-    {
-      byte __rPWM = 0, __lPWM = 0;  // Declare local variables to adjust PWM
-      __rPWM=iModBot::_rPWM;
-      __lPWM=iModBot::_lPWM;
-      const uint16_t timerInterval = 500; //value in miliseconds (ms)
-      Ls = ((Lp / (timerInterval / 1000.0)) / 40.0) * 100; 
-      Rs = ((Rp / (timerInterval / 1000.0)) / 40.0) * 100;
-      
-      if(Ls > Rs){  // right now Left wheel is faster
-        if(fasterWheel==1){ // if left wheel was the fastest one already
-          __lPWM = (__lPWM > 1) ? __lPWM - 1 : __lPWM; // Prevent underflow
-          iModBot::_lPWM=__lPWM;
-        }else{  // if right wheel was the fastest one, but now it's not
-          __rPWM = (__rPWM < 255) ? __rPWM + 1 : __rPWM; // Prevent overflow
-          iModBot::_rPWM=__rPWM;
-        }
-      }else if(Rs > Ls){ // right now Right wheel is faster
-        if(fasterWheel==1){ // if left wheel was the fastest one, but now it's not
-          __lPWM = (__lPWM < 255) ? __lPWM + 1 : __lPWM; // Prevent overflow
-          iModBot::_lPWM=__lPWM;
-        }else{  // if right wheel was the fastest one
-          __rPWM = (__rPWM > 1) ? __rPWM - 1 : __rPWM; // Prevent underflow
-          iModBot::_rPWM=__rPWM;
-        }
-      }
-
-      switch (iModBot::_mov)
-      {
-      case 0x11:
-        ledcWrite(_IN1_PWM_channel, 0);      //R
-        ledcWrite(_IN2_PWM_channel, __rPWM); //R
-        ledcWrite(_IN3_PWM_channel, __lPWM); //L
-        ledcWrite(_IN4_PWM_channel, 0);      //L
-        break;
-
-      case 0x22:
-        ledcWrite(_IN1_PWM_channel, __rPWM); //R
-        ledcWrite(_IN2_PWM_channel, 0);      //R
-        ledcWrite(_IN3_PWM_channel, 0);      //L
-        ledcWrite(_IN4_PWM_channel, __lPWM); //L
-        break;
-
-      case 0x12:
-        ledcWrite(_IN1_PWM_channel, __rPWM); //R
-        ledcWrite(_IN2_PWM_channel, 0);      //R
-        ledcWrite(_IN3_PWM_channel, __lPWM); //L
-        ledcWrite(_IN4_PWM_channel, 0);      //L
-        break;
-
-      case 0x21:
-        ledcWrite(_IN1_PWM_channel, 0);      //R
-        ledcWrite(_IN2_PWM_channel, __rPWM); //R
-        ledcWrite(_IN3_PWM_channel, 0);      //L
-        ledcWrite(_IN4_PWM_channel, __lPWM); //L
-        break;
-
-      default:
-        break;
-      }
-    }
-  } */
   else //if iModBot::_canAdjustPWM... do PWM adjustment on faster wheel
   {
     feed = 0;
@@ -1904,7 +1814,8 @@ bool iModBot::_checkMinSpeed()
       }
       return 0;
     }
-    if (millis() - ts > 400)
+
+    if (millis() - ts > 500)
     {
       if (_minSpeed == 255)
       {
@@ -1926,7 +1837,7 @@ void iModBot::enSpeedAdj()
   // Use 1st timer of 4 (counted from zero).
   // Set 80 divider for prescaler (see ESP32 Technical Reference Manual for more
   // info).
-  timer = timerBegin(1, 80, true);
+  timer = timerBegin(0, 80, true);
 
   // Attach onTimer function to our timer.
   timerAttachInterrupt(timer, &onTimer, true);
