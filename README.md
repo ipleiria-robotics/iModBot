@@ -13,11 +13,11 @@ Foi desenvolvido uma livraria no Arduíno IDE e implementamos blocos a partir de
 # Elaboração do Projeto
 **1º Passo do Projeto**
 
-![Montar o robô](https://github.com/SamueLourenc0/Ardublock/tree/master/00%20_GUIA%20DE%20MONTAGEM) de baixo custo seguido os esquemas que estão dividipros por ![imagens.](https://github.com/SamueLourenc0/Ardublock/tree/master/00%20_GUIA%20DE%20MONTAGEM/Guia%20de%20montagem)
+![Montar o robô](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) de baixo custo seguido os esquemas que estão dividipros por ![imagens.]
 
 **2º Passo do Projeto** 
  
-Baixar a livraria  ![RobotOnLine.](https://github.com/SamueLourenc0/Ardublock/tree/master/00%20_GUIA%20DE%20MONTAGEM/Guia%20de%20montagem)
+Baixar a livraria  ![RobotOnLine.](https://github.com/ipleiria-robotics/iModBot/tree/master/4_Biblioteca)
 
 **3º Passo do Projeto**
 
