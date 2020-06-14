@@ -13,13 +13,13 @@ Foi desenvolvido uma livraria no Arduíno IDE e implementamos blocos a partir de
 # Elaboração do Projeto
 **1º Passo do Projeto**
 
-Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) de mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo)
+Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) de mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo) E para preceber melhor o que faz cada componete do robô pode ver no ![manuel ](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf)
 
 Lista de material:
  - Doit ESP 32
  - Módulo de controlo dos motores (L293D)
- - Encoder Óticos 
- - HC-SR04
+ - Encoder óticos (LM393)
+ - Sensor de ultrassom (HC-SR04)
  - Módulo de cargo (TP4056)
  - Módulo elevador de tensão (MT3608)
  - Bateria de litio de iões  
