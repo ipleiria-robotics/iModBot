@@ -27,12 +27,14 @@ Lista de material:
  
  
 **2º Passo do Projeto** 
+ 
  Downloads :
-            - Livraria  ![RobotOnLine.](https://github.com/ipleiria-robotics/iModBot/tree/master/4_Biblioteca)
+ 
+- Livraria  ![RobotOnLine.](https://github.com/ipleiria-robotics/iModBot/tree/master/4_Biblioteca)
             
-            - Programa ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- Programa ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
            
-            - Fixeiro ![java do ArduBlock]()
+- Fixeiro ![java do ArduBlock]()
 
 **3º Passo do Projeto**
 
