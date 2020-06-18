@@ -1,11 +1,12 @@
 
 # Apresentação do Projeto 
-Este projeto iModBot consiste em programar um robô de baixo custo por blocos. Para utilizadores que estão a iniciar a programar em linguagem C++.
-Foi desenvolvido uma livraria no Arduíno IDE e implementamos blocos a partir dela. Com os vários blocos que criamos fizemos 4 níveis para facilitar a aprendizagem do utilizados. Os níveis são os seguintes:
- - Nível Iniciante -> Este nível o utilizador escolhe um bloco e arraste para o loop.
- - Nível Normal -> Este nível o utilizador já escolhe o caminho que o robô vai fazer arrentando blocos para o Loop conforme o pretenda.
- - Nível Médio -> Este nível é semelhante ao anterior, mas só que neste nível já tem um Setup e um Loop.
- - Nível Avançado -> Este nível já tem de adicionar os pinos e a biblioteca no Setup e Loop.
+Este projeto iModBot consiste num robô modular de baixo custo que pode ser programado através de liguagem de programação por blocos e/ou através de linguagem C/C++. Este projeto dispõe de uma biblioteca para facilitar o controlo do robô. 
+
+A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem do utilizadores. Os níveis são os seguintes:
+ - Nível Iniciante -> É possível colocar o robô a efetuar uma terefa com 1 a 2 blocos.
+ - Nível Normal -> O utilizador tem mais controlo sob o movimento do robô, dispõe apenas da função loop.
+ - Nível Médio -> O utilizador pode agora colocar blocos na função Setup e Loop.
+ - Nível Avançado -> O utilizador dispõe de todas as funções da biblioteca e necessita de configurar todos os aspetos do robô.
     
 ![ROBOT](https://user-images.githubusercontent.com/61513539/82364254-f0e14d80-9a06-11ea-9d6f-fb408e07dd22.jpg)
 
@@ -13,7 +14,7 @@ Foi desenvolvido uma livraria no Arduíno IDE e implementamos blocos a partir de
 # Elaboração do Projeto
 **1º Passo do Projeto**
 
-Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) de mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). E para perceber melhor o que faz cada componente do robô pode ler o ![manuel tecnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que esplica cada componente. 
+Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) que mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o ![manual técnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que explica vários aspetos do robô. 
 
 Lista de material:
  - Doit ESP 32 DevKit;
