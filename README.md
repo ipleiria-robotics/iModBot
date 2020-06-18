@@ -31,16 +31,16 @@ Lista de material:
  
  Downloads:
  
-- Livraria  ![RobotOnLine.](https://github.com/ipleiria-robotics/iModBot/tree/master/4_Biblioteca)
+- Biblioteca  ![RobotOnLine.](https://github.com/ipleiria-robotics/iModBot/tree/master/4_Biblioteca)
             
-- Programa ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- ArduinoIDE ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
            
-- Ficheiro ![java do ArduBlock](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/ardublock-beta-20200614.jar)
+- ArduBlock ![java do ArduBlock](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/ardublock-beta-20200614.jar)
 
 **3º Passo do Projeto**
 
 Ler e seguir os tutoriais para configurar o Arduíno:
- - ![Configura Arduíno IDE para o ESP32;](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf)
+ - ![Configurar Arduíno IDE para o ESP32;](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf)
 
  - ![Configurar ArduBlock no Arduíno IDE;](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf)
 
@@ -48,11 +48,11 @@ Ler e seguir os tutoriais para configurar o Arduíno:
 
 # Documentação
 
-Com o Arduíno IDE e o ArduBlock já instalados prontos para funcionar nós realizamos alguns tutoriais para facilitar a aprendizagem ao utilizador.
+Após ter o Arduino IDE e o ArduBlock instalados pode usufruir dos tutoriais disponibilizados. Estes tutoriais ensinam a trabalhar com o robô sendo os mesmos divididos em duas categorias: tutoriais para ArduBlock e tutoriais para Arduino IDE.
 
 **Documentação do ArduBlock**
 
-Os ![4 nível](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo iramo facilipar e guiar como deve de utilizar cada bloco e como creiara um programa.
+Os ![4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilipar e guiar como deve de utilizar cada bloco e como creiara um programa.
 
 - ![Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial%201%20-%20Nivel%20iniciante/1.%20Nivel%20iniciante.pdf)
 
@@ -66,7 +66,7 @@ Depois de ler a documentação temos uma atividade para cada ![nivel](https://gi
 
 **Documentação do Arduino IDE**
 
-Depois de já ter realizado os tutoriais do ArduBock já tá apto para começar a programa no Arduino IDE onde também elaboramos alguns tutoriais sugerindo que primeiro desse uma vista de olhos nos ![fluxogramas](https://github.com/SamueLourenc0/Ardublock/tree/master/02_TUTORIALS/5.Tutoriais%20para%20Arduino%20IDE/Recursos%20usados%20para%20elabora%C3%A7%C3%A3o%20dos%20tutoriais) que monstrao o funcionamenro do robô. 
+Depois de já ter realizado os tutoriais do ArduBock deverá ter uma noção de como programar no Arduino IDE, também elaboramos alguns tutoriais sugerindo que primeiro desse uma vista de olhos nos ![fluxogramas](https://github.com/SamueLourenc0/Ardublock/tree/master/02_TUTORIALS/5.Tutoriais%20para%20Arduino%20IDE/Recursos%20usados%20para%20elabora%C3%A7%C3%A3o%20dos%20tutoriais) que monstrao o funcionamenro do robô. 
 
 - ![Tutorial 1 - Movimento;](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial%201%20-%20Movimento)
 
