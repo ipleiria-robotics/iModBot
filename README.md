@@ -24,7 +24,9 @@ Lista de material:
  - Módulo de cargo (TP4056);
  - Módulo elevador de tensão (MT3608);
  - Bateria de litio de iões;
- - Kit Carrinho Robot.
+ - 2x "Breadboard 400";
+ - Fios jumper;
+ - Kit Carrinho Robot (2WD Robot).
  
  
 **2º Passo do Projeto** 
