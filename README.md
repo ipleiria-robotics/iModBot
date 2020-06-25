@@ -75,7 +75,7 @@ Lista de material:
 
 - Software Arduino IDE na [pagina do Arduino](https://www.arduino.cc/en/main/software) conforme o seu sistema de operativo e instalar. 
        <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/61513539/85758812-91164a80-b708-11ea-947f-1db630270aee.png">
+  <img width="550" height="300" src="https://user-images.githubusercontent.com/61513539/85758812-91164a80-b708-11ea-947f-1db630270aee.png">
 </p> 
        
 
