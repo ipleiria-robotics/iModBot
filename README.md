@@ -14,7 +14,7 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 # Elaboração do Projeto
 **1º Passo do Projeto**
 
-Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) que mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o ![manual técnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que explica vários aspetos do robô. 
+Para montar o robô basta seguir o documento 4_Guia_de_montagem_offline (![3_Documentacao/4_Guia_de_montagem_offline.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf)) que mostra como montar ou então assistir o video ![iModBot@ipleiria.pt guia de montagem](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o manual técnico (![3_Documentacao/5_Manual_Tecnico_iModBot.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf)) que explica vários aspetos do robô. 
 
 Lista de material:
  - ESP32 wroom32 devkit ; 
@@ -86,11 +86,11 @@ Lista de material:
 **3º Passo do Projeto**
 
 Ler e seguir os tutoriais para configurar o Arduíno:
- - ![Configurar Arduíno IDE para o ESP32;](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf)
+ - Configurar Arduíno IDE para o ESP32; (![3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf))
 
- - ![Configurar ArduBlock no Arduíno IDE;](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf)
+ - Configurar ArduBlock no Arduíno IDE; (![3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf))
 
- - ![Como instalar bibliotecas no Arduíno IDE.](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3_Como_instalar_bibliotecas_no_Arduino_IDE.pdfl)
+ - Como instalar bibliotecas no Arduíno IDE. (![3_Documentacao/3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf))
 
 # Documentação
 
@@ -98,7 +98,7 @@ Após ter o Arduino IDE e o ArduBlock instalados pode usufruir dos tutoriais dis
 
 **Documentação do ArduBlock**
 
-Os ![4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilipar e guiar como deve de utilizar cada bloco e como creiara um programa.
+Os ![4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilitar e guiar como deve de utilizar cada bloco e como criar um programa.
 
 - ![Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial%201%20-%20Nivel%20iniciante/1.%20Nivel%20iniciante.pdf)
 
