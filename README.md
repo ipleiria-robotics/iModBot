@@ -22,6 +22,7 @@ Lista de material:
  - 2x LM393 speed sensor ;
  - BFD-1000 5CH ;
  - HC-SR04 ;
+ - I2C level shifter ;
  - TP4056 ;
  - MT3608 ;
  - li-ion rechargable battery 2500 mAh ;
