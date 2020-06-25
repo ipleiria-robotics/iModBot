@@ -20,6 +20,7 @@ Lista de material:
  - ESP32 wroom32 devkit ;
  - l293d 4 channel module ;
  - 2x LM393 speed sensor ;
+ - BFD-1000 5CH ;
  - HC-SR04 ;
  - TP4056 ;
  - MT3608 ;
