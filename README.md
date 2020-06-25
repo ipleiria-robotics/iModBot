@@ -17,7 +17,7 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) que mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o ![manual técnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que explica vários aspetos do robô. 
 
 Lista de material:
- - ESP32 wroom32 devkit ;
+ - ![ESP32 wroom32 devkit](https://user-images.githubusercontent.com/60508542/85723093-cf047600-b6ea-11ea-81e3-f72a01ec48b6.png) ;
  - l293d 4 channel module ;
  - 2x LM393 speed sensor ;
  - BFD-1000 5CH ;
