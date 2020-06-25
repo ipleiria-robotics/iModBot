@@ -81,7 +81,7 @@ Depois de ler a documentação temos uma atividade para cada ![tutorial](https:/
 
 # Editar o ArduBlock
 
-Caso tiver interesse de como se cria um bloco basta só seguir os passo neste repositório ![Editar_ArduBlock_Eclipse.](https://github.com/SamueLourenc0/Editar_ArduBlock_Eclipse)
+Caso tenha interesse em criar um bloco deve seguir os passos neste repositório ![Editar_ArduBlock_Eclipse.](https://github.com/SamueLourenc0/Editar_ArduBlock_Eclipse)
 
 # Autores
  
