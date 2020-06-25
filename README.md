@@ -24,7 +24,7 @@ Lista de material:
  - HC-SR04 ; ![](https://user-images.githubusercontent.com/60508542/85724200-e4c66b00-b6eb-11ea-9789-b2eacbc635ab.png)
  - I2C level shifter ; ![](https://user-images.githubusercontent.com/60508542/85724071-c19bbb80-b6eb-11ea-8eb0-9afc799fef34.png)
  - TP4056 ; ![](https://user-images.githubusercontent.com/60508542/85724148-d5472200-b6eb-11ea-8c86-d48509ba7451.png)
- - MT3608 ; ![]()
+ - MT3608 ; ![](https://user-images.githubusercontent.com/60508542/85726065-a5008300-b6ed-11ea-98b0-1c33093c3eb8.png)
  - li-ion rechargable battery 2500 mAh ; ![](https://user-images.githubusercontent.com/60508542/85723808-81d4d400-b6eb-11ea-81da-f25455cd2255.png)
  - 2x Breadboard 400 ; ![](https://user-images.githubusercontent.com/60508542/85723875-92854a00-b6eb-11ea-9e6c-e71d3e19aa65.png)
  - Jumper wire male male, Jumper wire male female ; ![](https://user-images.githubusercontent.com/60508542/85724007-b34d9f80-b6eb-11ea-9909-54d1adc4b83c.png)
