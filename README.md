@@ -17,16 +17,16 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) que mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o ![manual técnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que explica vários aspetos do robô. 
 
 Lista de material:
- - Doit ESP 32 DevKit;
- - Módulo de controlo dos motores (L293D):
- - Encoder óticos (LM393);
- - Sensor de ultrassom (HC-SR04);
- - Módulo de cargo (TP4056);
- - Módulo elevador de tensão (MT3608);
- - Bateria de litio de iões;
- - 2x "Breadboard 400";
- - Fios jumper;
- - Kit Carrinho Robot (2WD Robot).
+ - ESP32 wroom32 devkit ;
+ - l293d 4 channel module ;
+ - 2x LM393 speed sensor ;
+ - HC-SR04 ;
+ - TP4056 ;
+ - MT3608 ;
+ - li-ion rechargable battery 2500 mAh ;
+ - 2x Breadboard 400 ;
+ - Jumper wire male male, Jumper wire male female ;
+ - 2wd smart robot kit .
  
  
 **2º Passo do Projeto** 
