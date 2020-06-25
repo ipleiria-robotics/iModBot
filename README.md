@@ -71,11 +71,17 @@ Lista de material:
  
  Downloads:
  
-- Biblioteca iModBot.zip (![4_Biblioteca/iModBot.zip](https://github.com/ipleiria-robotics/iModBot/blob/master/4_Biblioteca/iModBot.zip)) e descompacta o ficheiro.
-            ![Anotação 2020-06-25 170046](https://user-images.githubusercontent.com/61513539/85755250-ae95e500-b705-11ea-9307-defe1aaa936e.png)
-- ArduinoIDE ![Arduino IDE](https://www.arduino.cc/en/Main/Software)
-           
-- ArduBlock ![java do ArduBlock](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/ardublock-beta-20200614.jar)
+- Biblioteca iModBot.zip (![4_Biblioteca/iModBot.zip](https://github.com/ipleiria-robotics/iModBot/blob/master/4_Biblioteca/iModBot.zip)) e descompacta o ficheiro. ![Anotação 2020-06-25 170046](https://user-images.githubusercontent.com/61513539/85755250-ae95e500-b705-11ea-9307-defe1aaa936e.png)
+
+- Software Arduino IDE na [pagina do Arduino](https://www.arduino.cc/en/main/software) conforme o seu sistema de operativo e instalar. 
+       <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/61513539/85758812-91164a80-b708-11ea-947f-1db630270aee.png">
+</p> 
+       
+
+- Ficheiro java do ArduBlock (![5_AduBlock/ardublock-beta-20200614.jar](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/ardublock-beta-20200614.jar)).
+
+![Anotação 2020-06-25 172512](https://user-images.githubusercontent.com/61513539/85759158-dfc3e480-b708-11ea-9878-04356b2ec291.png)
 
 **3º Passo do Projeto**
 
