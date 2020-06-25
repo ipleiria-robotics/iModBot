@@ -17,18 +17,18 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 Para montar o robô basta seguir o ![documentos](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/4_Guia_de_montagem_offline.pdf) que mostra como montar ou então assistir o ![video](https://www.youtube.com/watch?v=i4wFh0GqzkM&feature=emb_logo). Para perceber melhor o que faz cada componente do robô pode ler o ![manual técnico](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/5_Manual_Tecnico_iModBot.pdf) que explica vários aspetos do robô. 
 
 Lista de material:
- - ESP32 wroom32 devkit ;
- - l293d 4 channel module ;
- - 2x LM393 speed sensor ;
+ - ESP32 wroom32 devkit ; ![](https://user-images.githubusercontent.com/60508542/85723725-6ec20400-b6eb-11ea-908e-e79d1794d0ee.png)
+ - l293d 4 channel module ; ![](https://user-images.githubusercontent.com/60508542/85723609-505c0880-b6eb-11ea-87d1-0e9cb917e384.png)
+ - 2x LM393 speed sensor ; ![](https://user-images.githubusercontent.com/60508542/85723629-54882600-b6eb-11ea-8e68-96af385e72c1.png)
  - BFD-1000 5CH ; ![BFD-1000 5CH](https://user-images.githubusercontent.com/60508542/85723093-cf047600-b6ea-11ea-81e3-f72a01ec48b6.png)
- - HC-SR04 ;
- - I2C level shifter ;
- - TP4056 ;
- - MT3608 ;
- - li-ion rechargable battery 2500 mAh ;
- - 2x Breadboard 400 ;
- - Jumper wire male male, Jumper wire male female ;
- - 2wd smart robot kit .
+ - HC-SR04 ; ![](https://user-images.githubusercontent.com/60508542/85724200-e4c66b00-b6eb-11ea-9789-b2eacbc635ab.png)
+ - I2C level shifter ; ![](https://user-images.githubusercontent.com/60508542/85724071-c19bbb80-b6eb-11ea-8eb0-9afc799fef34.png)
+ - TP4056 ; ![](https://user-images.githubusercontent.com/60508542/85724148-d5472200-b6eb-11ea-8c86-d48509ba7451.png)
+ - MT3608 ; ![]()
+ - li-ion rechargable battery 2500 mAh ; ![](https://user-images.githubusercontent.com/60508542/85723808-81d4d400-b6eb-11ea-81da-f25455cd2255.png)
+ - 2x Breadboard 400 ; ![](https://user-images.githubusercontent.com/60508542/85723875-92854a00-b6eb-11ea-9e6c-e71d3e19aa65.png)
+ - Jumper wire male male, Jumper wire male female ; ![](https://user-images.githubusercontent.com/60508542/85724007-b34d9f80-b6eb-11ea-9909-54d1adc4b83c.png)
+ - 2wd smart robot kit . ![](https://user-images.githubusercontent.com/60508542/85723938-a2049300-b6eb-11ea-9de5-462864945cb3.png)
  
  
 **2º Passo do Projeto** 
