@@ -85,5 +85,5 @@ Caso tenha interesse em criar um bloco deve seguir os passos neste repositório 
 
 # Autores
  
- - Abel Teixeira   - retrabalho- ![Ab-Tx](https://github.com/Ab-Tx)
- - Samuel Lourenço - retrabalho- ![SamueLourenc0](https://github.com/SamueLourenc0)
+ - Abel Teixeira   - estudante do Politécnico de Leiria do curso TeSP em Eletrónica e Redes de Telecomunicações ![Ab-Tx](https://github.com/Ab-Tx)
+ - Samuel Lourenço - estudante do Politécnico de Leuria do curso TeSP em Automação, Robótica e manutenção Industrial ![SamueLourenc0](https://github.com/SamueLourenc0)
