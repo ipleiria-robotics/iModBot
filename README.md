@@ -96,7 +96,7 @@ Lista de material:
  
 - Biblioteca iModBot.zip ([4_Biblioteca/iModBot.zip](https://github.com/ipleiria-robotics/iModBot/blob/master/4_Biblioteca/iModBot.zip)) e descompacta o ficheiro. ![Anotação 2020-06-25 170046](https://user-images.githubusercontent.com/61513539/85755250-ae95e500-b705-11ea-9307-defe1aaa936e.png)
 
-- Software Arduino IDE na [pagina do Arduino](https://www.arduino.cc/en/main/software) conforme o seu sistema de operativo e instalar. 
+- Software Arduino IDE na [pagina do Arduino](https://www.arduino.cc/en/main/software), instale a versão que se adequa ao seu equipamento, para windows recomendamos a opção "Windows installer, for windows 7 and up". 
  -- Tenha em atenção que os conteudos do projeto foram desenvolvidos e testados na versão Arduino IDE 1.8.12, os mesmos deverão continuar ser compatíveis com as versões mais recentes deste software.
        <p align="center">
   <img width="550" height="300" src="https://user-images.githubusercontent.com/61513539/85758812-91164a80-b708-11ea-947f-1db630270aee.png">
@@ -110,11 +110,11 @@ Lista de material:
 **3º Passo do Projeto**
 
 Ler e seguir os tutoriais para configurar o Arduíno:
- - Configurar Arduíno IDE para o ESP32; ([3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/1_Como_comunicar_com_o_ESP32.pdf))
+ - Configurar Arduíno IDE para o ESP32; ([3_Documentacao/3-1_Como_comunicar_com_o_ESP32.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3-1_Como_comunicar_com_o_ESP32.pdf))
 
- - Configurar ArduBlock no Arduíno IDE; ([3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf))
+ - Configurar ArduBlock no Arduíno IDE; ([3_Documentacao/3-2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3-2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf))
 
- - Como instalar bibliotecas no Arduíno IDE. ([3_Documentacao/3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf))
+ - Como instalar bibliotecas no Arduíno IDE. ([3_Documentacao/3-3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3-3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf))
 
 # Documentação
 
@@ -124,27 +124,28 @@ Após ter o Arduino IDE e o ArduBlock instalados pode usufruir dos tutoriais dis
 
 Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilitar e guiar como deve de utilizar cada bloco e como criar um programa.
 
-- [Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_1_-_Nivel%20iniciante/Nivel_iniciante.pdf)
+- [Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_1_-_Nivel%20iniciante/Nivel_iniciante.pdf)
 
-- [Nivel Normal;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_2_-_Nivel_Normal/Nivel_Normal.pdf)
+- [Nivel Normal;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_2_-_Nivel_Normal/Nivel_Normal.pdf)
 
-- [Nivel Médio;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_3_-_Nivel_Medio/Nivel_Medio.pdf)
+- [Nivel Médio;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_3_-_Nivel_Medio/Nivel_Medio.pdf)
 
-- [Nivel Avançado;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_4_-_Nivel_Avancado/Nivel_Avancado.pdf)
+- [Nivel Avançado;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_4_-_Nivel_Avancado/Nivel_Avancado.pdf)
 
-Existe um conjunto de atividades para cada nível. Após ler a documentação de um nível poderá realizar a atividade correspondente  ao mesmo em [2_Atividades/1_para_ArduBlock/](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/1_para_ArduBlock).
+Existe um conjunto de atividades para cada nível. Após ler a documentação de um nível poderá realizar a atividade correspondente  ao mesmo em [2_Atividades/2-1_para_ArduBlock/](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-1_para_ArduBlock).
 
 **Documentação do Arduino IDE**
 
 Depois de já ter realizado os tutoriais do ArduBock deverá ter uma noção melhor de como programar no Arduino IDE. Também elaboramos alguns tutoriais e atividades para facilitar a aprendizagem,
 
-- [Tutorial 1 - Movimento;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_1_-_Movimento/Tutorial_1_iModBot_-_Movimento.pdf)
+- [Tutorial 1 - Movimento;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-2_Tutoriais_para_Arduino_IDE/Tutorial_1_-_Movimento/Tutorial_1_iModBot_-_Movimento.pdf)
 
-- [Tutorial 2 - Sensores;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_2_-_Sensores/Tutorial_2_iModBot_-_Sensores.pdf)
+- [Tutorial 2 - Sensores;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-2_Tutoriais_para_Arduino_IDE/Tutorial_2_-_Sensores/Tutorial_2_iModBot_-_Sensores.pdf)
 
-- [Tutorial 3 - Seguir trajeto.](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_3_-_Seguir%20trajeto/Tutorial_3_iModBot_-_Seguir%20trajeto.pdf)
+- [Tutorial 3 - Seguir trajeto.](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-2_Tutoriais_para_Arduino_IDE/Tutorial_3_-_Seguir%20trajeto/Tutorial_3_iModBot_-_Seguir%20trajeto.pdf)
 
-As atividades para cada tutorial estão disponíveis em [/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2_para_Arduino_IDE).
+As atividades para cada tutorial estão disponíveis em [/2_Atividades/2-2_Atividades_para_Arduino_IDE/
+](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-2_para_Arduino_IDE).
 
 
 # Editar o ArduBlock
