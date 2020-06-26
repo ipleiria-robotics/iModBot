@@ -118,9 +118,9 @@ Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutori
 
 - [Nivel Médio;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_3_-_Nivel_Medio/Nivel_Medio.pdf)
 
-- [Nivel Avançado;]()
+- [Nivel Avançado;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_4_-_Nivel_Avancado/Nivel_Avancado.pdf)
 
-Depois de ler a documentação temos uma atividade para cada ![nivel](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/1_para_ArduBlock).
+Existe um conjunto de atividades para cada nível. Após ler a documentação de um nível poderá realizar a atividade correspondente  [ao mesmo](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/1_para_ArduBlock).
 
 **Documentação do Arduino IDE**
 
