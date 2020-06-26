@@ -1,9 +1,6 @@
 
-# Atividades
+# Atividades para ArduBlock
 
-São disponibilizadas atividades e respetivas soluções. 
-Estas estão divididas em duas categorias:
-- Atividades para ArduBlock;
-- Atividades para Arduino IDE.
+Os presentes tutoriais deverão facilitar a compreensão da linguagem de programaçãopor blocos bem como o seu uso no presente projeto.
 
-São disponibilizados tutoriais para cada atividade, estes estão presentes em [/1_Tutoriais/](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais)
+Pode encontrar os tutoriais associados em [/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock).
