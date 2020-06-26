@@ -122,7 +122,7 @@ Após ter o Arduino IDE e o ArduBlock instalados pode usufruir dos tutoriais dis
 
 **Documentação do ArduBlock**
 
-Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilitar e guiar como deve de utilizar cada bloco e como criar um programa.
+Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock) a baixo irão facilitar e guiar como deve de utilizar cada bloco e como criar um programa.
 
 - [Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_1_-_Nivel%20iniciante/Nivel_iniciante.pdf)
 
@@ -132,7 +132,7 @@ Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutori
 
 - [Nivel Avançado;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-1_Tuturiais_para_ArduBlock/Tutorial_4_-_Nivel_Avancado/Nivel_Avancado.pdf)
 
-Existe um conjunto de atividades para cada nível. Após ler a documentação de um nível poderá realizar a atividade correspondente  ao mesmo em [2_Atividades/2-1_para_ArduBlock/](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-1_para_ArduBlock).
+Existe um conjunto de atividades para cada nível. Após ler a documentação de um nível poderá realizar a atividade correspondente  ao mesmo em [2_Atividades/2-1_Atividades_para_ArduBlock/](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-1_Atividades_para_ArduBlock).
 
 **Documentação do Arduino IDE**
 
@@ -145,7 +145,7 @@ Depois de já ter realizado os tutoriais do ArduBock deverá ter uma noção mel
 - [Tutorial 3 - Seguir trajeto.](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1-2_Tutoriais_para_Arduino_IDE/Tutorial_3_-_Seguir%20trajeto/Tutorial_3_iModBot_-_Seguir%20trajeto.pdf)
 
 As atividades para cada tutorial estão disponíveis em [/2_Atividades/2-2_Atividades_para_Arduino_IDE/
-](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-2_para_Arduino_IDE).
+](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2-2_Atividades_para_Arduino_IDE).
 
 
 # Editar o ArduBlock
