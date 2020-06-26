@@ -20,6 +20,7 @@ Abra a localização do ficheiro .zip transferido e use um programa para extrair
 ![](https://user-images.githubusercontent.com/60508542/85849135-506b0f80-b7a2-11ea-86b6-15204e42a5db.png)
 
 Por fim irá obter um conjunto de pastas e ficheiros organizados da mesma maneira que se encontram neste repositório.
+
 ![](https://user-images.githubusercontent.com/60508542/85849176-61b41c00-b7a2-11ea-9cf0-36eb9aabff0b.png)
 
 # Elaboração do Projeto
