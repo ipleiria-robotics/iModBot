@@ -10,6 +10,11 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
     
 ![ROBOT](https://user-images.githubusercontent.com/61513539/82364254-f0e14d80-9a06-11ea-9d6f-fb408e07dd22.jpg)
 
+# Como transferir ficheiros do GitHub
+No GitHub não é possível transferir um ficheiro individualmente, necessitará de transferir todas as pastas e ficheiros presentes neste projeto. Para tal siga as instruções abaixo:
+
+
+
 
 # Elaboração do Projeto
 **1º Passo do Projeto**
