@@ -141,5 +141,5 @@ Caso tenha interesse em criar um bloco deve seguir os passos neste repositório 
 
 # Autores
  
- - Abel Teixeira   - estudante do Politécnico de Leiria do curso TeSP em Eletrónica e Redes de Telecomunicações [Ab-Tx](https://github.com/Ab-Tx)
- - Samuel Lourenço - estudante do Politécnico de Leuria do curso TeSP em Automação, Robótica e manutenção Industrial [SamueLourenc0](https://github.com/SamueLourenc0)
+ - Abel Teixeira   - estudante do [Politécnico de Leiria do curso TeSP em Eletrónica e Redes de Telecomunicações](https://www.ipleiria.pt/cursos/) [Ab-Tx](https://github.com/Ab-Tx)
+ - Samuel Lourenço - estudante do [Politécnico de Leuria do curso TeSP em Automação, Robótica e manutenção Industrial](https://www.ipleiria.pt/cursos/) [SamueLourenc0](https://github.com/SamueLourenc0)
