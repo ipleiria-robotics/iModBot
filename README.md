@@ -85,6 +85,7 @@ Lista de material:
 - Biblioteca iModBot.zip (![4_Biblioteca/iModBot.zip](https://github.com/ipleiria-robotics/iModBot/blob/master/4_Biblioteca/iModBot.zip)) e descompacta o ficheiro. ![Anotação 2020-06-25 170046](https://user-images.githubusercontent.com/61513539/85755250-ae95e500-b705-11ea-9307-defe1aaa936e.png)
 
 - Software Arduino IDE na [pagina do Arduino](https://www.arduino.cc/en/main/software) conforme o seu sistema de operativo e instalar. 
+ - Tenha em atenção que os conteudos do projeto foram desenvolvidos e testados na versão Arduino IDE 1.8.12, os mesmos deverão continuar ser compatíveis com as versões mais recentes deste software.
        <p align="center">
   <img width="550" height="300" src="https://user-images.githubusercontent.com/61513539/85758812-91164a80-b708-11ea-947f-1db630270aee.png">
 </p> 
