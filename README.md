@@ -11,7 +11,7 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 ![ROBOT](https://user-images.githubusercontent.com/61513539/82364254-f0e14d80-9a06-11ea-9d6f-fb408e07dd22.jpg)
 
 # Como transferir ficheiros do GitHub
-No GitHub não é possível transferir um ficheiro individualmente, necessitará de transferir todas as pastas e ficheiros presentes neste projeto. Para tal siga as instruções abaixo:
+No GitHub não é possível transferir qualquer ficheiro individualmente. É recomendado transferir todas as pastas e ficheiros presentes neste projeto. Para tal siga as instruções abaixo:
 
 Comece por transferir todos os ficheiros no formato .zip
 ![](https://user-images.githubusercontent.com/60508542/85849029-1b5ebd00-b7a2-11ea-8346-0e61bc6c73ff.png)
@@ -112,11 +112,11 @@ Após ter o Arduino IDE e o ArduBlock instalados pode usufruir dos tutoriais dis
 
 Os [4 níveis](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/1_Tuturiais_para_ArduBlock) a baixo irão facilitar e guiar como deve de utilizar cada bloco e como criar um programa.
 
-- [Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial%201%20-%20Nivel%20iniciante/1.%20Nivel%20iniciante.pdf)
+- [Nivel Iniciante;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_1_-_Nivel%20iniciante/Nivel_iniciante.pdf)
 
-- [Nivel Normal;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial%202%20-%20N%C3%ADvel%20Normal/2.%20N%C3%ADvel%20Normal.pdf)
+- [Nivel Normal;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_2_-_Nivel_Normal/Nivel_Normal.pdf)
 
-- [Nivel Médio;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial%203%20-%20N%C3%ADvel%20M%C3%A9dio/3.%20N%C3%ADvel%20M%C3%A9dio.pdf)
+- [Nivel Médio;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/1_Tuturiais_para_ArduBlock/Tutorial_3_-_Nivel_Medio/Nivel_Medio.pdf)
 
 - [Nivel Avançado;]()
 
