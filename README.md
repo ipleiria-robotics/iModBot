@@ -13,8 +13,14 @@ A programação por blocos divide-se em 4 níveis, para facilitar a aprendizagem
 # Como transferir ficheiros do GitHub
 No GitHub não é possível transferir um ficheiro individualmente, necessitará de transferir todas as pastas e ficheiros presentes neste projeto. Para tal siga as instruções abaixo:
 
+Comece por transferir todos os ficheiros no formato .zip
+![](https://user-images.githubusercontent.com/60508542/85849029-1b5ebd00-b7a2-11ea-8346-0e61bc6c73ff.png)
 
+Abra a localização do ficheiro .zip transferido e use um programa para extrair os conteudos
+![](https://user-images.githubusercontent.com/60508542/85849135-506b0f80-b7a2-11ea-86b6-15204e42a5db.png)
 
+Por fim irá obter um conjunto de pastas e ficheiros organizados da mesma maneira que se encontram neste repositório.
+![](https://user-images.githubusercontent.com/60508542/85849176-61b41c00-b7a2-11ea-9cf0-36eb9aabff0b.png)
 
 # Elaboração do Projeto
 **1º Passo do Projeto**
