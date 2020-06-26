@@ -124,13 +124,13 @@ Existe um conjunto de atividades para cada nível. Após ler a documentação de
 
 **Documentação do Arduino IDE**
 
-Depois de já ter realizado os tutoriais do ArduBock deverá ter uma noção de como programar no Arduino IDE, também elaboramos alguns tutoriais sugerindo que primeiro desse uma vista de olhos nos [fluxogramas](https://github.com/SamueLourenc0/Ardublock/tree/master/02_TUTORIALS/5.Tutoriais%20para%20Arduino%20IDE/Recursos%20usados%20para%20elabora%C3%A7%C3%A3o%20dos%20tutoriais) que monstrao o funcionamenro do robô. 
+Depois de já ter realizado os tutoriais do ArduBock deverá ter uma noção melhor de como programar no Arduino IDE. Também elaboramos alguns tutoriais e atividades para facilitar a aprendizagem,
 
-- [Tutorial 1 - Movimento;](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial%201%20-%20Movimento)
+- [Tutorial 1 - Movimento;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_1_-_Movimento/Tutorial_1_iModBot_-_Movimento.pdf)
 
-- [Tutorial 2 - Sensores;](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial%202%20-%20Sensores)
+- [Tutorial 2 - Sensores;](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_2_-_Sensores/Tutorial_2_iModBot_-_Sensores.pdf)
 
-- [Tutorial 3 - Seguir trajeto.](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial%203%20-%20Seguir%20trajeto)
+- [Tutorial 3 - Seguir trajeto.](https://github.com/ipleiria-robotics/iModBot/blob/master/1_Tutoriais/2_Tutoriais_para_Arduino_IDE/Tutorial_3_-_Seguir%20trajeto/Tutorial_3_iModBot_-_Seguir%20trajeto.pdf)
 
 Depois de ler a documentação temos uma atividade para cada [tutorial](https://github.com/ipleiria-robotics/iModBot/tree/master/2_Atividades/2_para_Arduino_IDE).
 
