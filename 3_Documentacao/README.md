@@ -31,4 +31,7 @@ Esquema eletrónico:
 
 Placa de circuito impresso (sem o plano de massa visível):
 
-![](https://user-images.githubusercontent.com/60508542/85994326-8e10a800-b9ef-11ea-9d61-02198abe6ba9.png)
+ <p align="center">
+  <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/85994326-8e10a800-b9ef-11ea-9d61-02198abe6ba9.png">
+</p>
+
