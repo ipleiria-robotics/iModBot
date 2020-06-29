@@ -24,7 +24,9 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 # Esquema eletrónico e PCB
 
 Esquema eletrónico:
+
 ![](https://user-images.githubusercontent.com/60508542/85994328-8f41d500-b9ef-11ea-9df7-9f3262f6af68.png)
 
 Placa de circuito impresso:
+
 ![](https://user-images.githubusercontent.com/60508542/85994326-8e10a800-b9ef-11ea-9d61-02198abe6ba9.png)
