@@ -26,7 +26,7 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 Esquema eletrónico:
 
  <p align="center">
-  <img width="1409" height="803" src="https://user-images.githubusercontent.com/60508542/85994328-8f41d500-b9ef-11ea-9df7-9f3262f6af68.png">
+  <img width="986" height="562" src="https://user-images.githubusercontent.com/60508542/85994328-8f41d500-b9ef-11ea-9df7-9f3262f6af68.png">
 </p>
 
 Placa de circuito impresso (sem o plano de massa visível):
