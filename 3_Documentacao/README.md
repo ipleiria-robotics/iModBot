@@ -40,3 +40,6 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
   <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/87034508-d4c88400-c1df-11ea-97bc-7f3ebd613b46.png">
 </p>
 
+
+    Uma boa opção para conectar/desconectar a alimentação seria o uso de conectores "jumper two pins".
+    ![](https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/im120707001_6.jpg)
