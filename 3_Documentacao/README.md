@@ -43,4 +43,6 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 
     Uma boa opção para conectar/desconectar a alimentação seria o uso de conectores "jumper two pins".
     
-  ![](https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/im120707001_6.jpg)
+ <p align="center">
+  <img width="250" height="250" src="https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/im120707001_6.jpg">
+</p>
