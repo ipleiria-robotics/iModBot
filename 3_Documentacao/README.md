@@ -26,12 +26,12 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 Esquema eletrónico:
 
  <p align="center">
-  <img width="986" height="562" src="https://user-images.githubusercontent.com/60508542/85994328-8f41d500-b9ef-11ea-9df7-9f3262f6af68.png">
+  <img width="986" height="562" src="https://user-images.githubusercontent.com/60508542/87034511-d5f9b100-c1df-11ea-8ed3-99767a2c4866.png">
 </p>
 
 Placa de circuito impresso (sem o plano de massa visível):
 
  <p align="center">
-  <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/85994326-8e10a800-b9ef-11ea-9d61-02198abe6ba9.png">
+  <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/87034508-d4c88400-c1df-11ea-97bc-7f3ebd613b46.png">
 </p>
 
