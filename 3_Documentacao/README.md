@@ -24,18 +24,17 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 # Esquema eletrónico e PCB
 
 
-  Foram inseridos vários pontos de teste na placa de circuito impresso. 
-  
-  Foram adicionados jumpers para poder desconectar a alimentação geral do circuito e/ou a alimentação da placa de desenvolvimento DOIT ESP32 Devkit V1 e/ou a alimentação do módulo baseado no integrado L293D.
+  -Foram inseridos vários pontos de teste na placa de circuito impresso. 
+  -Foram adicionados jumpers para poder desconectar a alimentação geral do circuito e/ou a alimentação da placa de desenvolvimento DOIT ESP32 Devkit V1 e/ou a alimentação do módulo baseado no integrado L293D.
 
-Esquema eletrónico:
+**Esquema eletrónico**:
 
  <p align="center">
   <img width="882" height="466" src="https://user-images.githubusercontent.com/60508542/87034511-d5f9b100-c1df-11ea-8ed3-99767a2c4866.png">
 </p>
 
 
-Placa de circuito impresso (sem o plano de massa visível):
+**Placa de circuito impresso** (sem o plano de massa visível):
 
  <p align="center">
   <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/87034508-d4c88400-c1df-11ea-97bc-7f3ebd613b46.png">
