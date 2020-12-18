@@ -150,7 +150,7 @@ As atividades para cada tutorial estão disponíveis em [/2_Atividades/2-2_Ativi
 
 # Editar o ArduBlock
 
-Caso tenha interesse em criar um bloco deve seguir os passos neste repositório [Editar_ArduBlock_Eclipse.](https://github.com/SamueLourenc0/Editar_ArduBlock_Eclipse)
+Caso tenha interesse em criar um bloco deve seguir os passos neste pasta [5.Ardublock](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/README.md)
 
 # Autores
  
