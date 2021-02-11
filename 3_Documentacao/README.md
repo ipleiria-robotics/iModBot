@@ -27,6 +27,9 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 - **3.8_ArduBlock2020**
   - Para começar a programar o robô por blocos, basta seguir o tutorial 3.3_Como_instalar_ArduBlock_no_Arduino_IDE.pdf e deve ser usado este ficheiro para ter os blocos prontos para programar o robô.
 
+- **3.8_Guia_basica_de_montagem_de_circuitos_eletricos**
+  - É fornecida uma guia basica de montagem para conhecer a Breadboard e o seu funcionamento de face à montagem de placas eletrónicas nesta ferramenta.
+  
 # Esquema eletrónico e PCB
 
 
