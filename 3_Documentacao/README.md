@@ -21,6 +21,12 @@ Nesta pasta pode encontrar documentação para varios aspetos do projeto.
 - **3.6_iModRob_Eagle_2_layer_board.zip**
   - Também é disponibilizado o projeto para a aplicação Autodesk Eagle que contém uma placa de circuito impresso (PCB) que facilitará a montagem dos componentes no robô.
 
+- **3.7_Listagem_de_componentes_mais_links_de_compra_auxiliares**
+  - Também é disponibilizado uma lista de componentes completa a incluir links de lojas online onde poderas encontrar os componentes em custos mais baratos.
+
+- **3.8_ArduBlock2020**
+  - Para começar a programar o robô por blocos, basta seguir o tutorial 3.3_Como_instalar_ArduBlock_no_Arduino_IDE.pdf e deve ser usado este ficheiro para ter os blocos prontos para programar o robô.
+
 # Esquema eletrónico e PCB
 
 
