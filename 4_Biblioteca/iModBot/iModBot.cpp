@@ -967,15 +967,15 @@ void iModBot::forward(byte speed)
 
 void iModBot::reverse(byte speed)
 {
-  if (_mov != 0)
-  {
-    decelerate(0);
-  }
-  else if (_mov == 0x22 && (!_canAdjustRPS))
+
+   if (_mov == 0x22 && (!_canAdjustRPS))
   {
     decelerate(speed);
   }
-
+ else if (_mov != 0)
+  {
+    decelerate(0);
+  }
   //accelerate
   /* ledcWrite(_IN1_PWM_channel, abs(speed - _speedAdjR)); //R
   ledcWrite(_IN2_PWM_channel, 0); //R
