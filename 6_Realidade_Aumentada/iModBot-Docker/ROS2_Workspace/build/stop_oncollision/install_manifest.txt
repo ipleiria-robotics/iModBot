@@ -1,0 +1,16 @@
+/home/ipleiria/dev_workspace/install/stop_oncollision/lib/stop_oncollision/oncollision
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/ament_index/resource_index/package_run_dependencies/stop_oncollision
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/ament_index/resource_index/parent_prefix_path/stop_oncollision
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/environment/ament_prefix_path.sh
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/environment/ament_prefix_path.dsv
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/environment/path.sh
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/environment/path.dsv
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/local_setup.bash
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/local_setup.sh
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/local_setup.zsh
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/local_setup.dsv
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/package.dsv
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/ament_index/resource_index/packages/stop_oncollision
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/cmake/stop_oncollisionConfig.cmake
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/cmake/stop_oncollisionConfig-version.cmake
+/home/ipleiria/dev_workspace/install/stop_oncollision/share/stop_oncollision/package.xml

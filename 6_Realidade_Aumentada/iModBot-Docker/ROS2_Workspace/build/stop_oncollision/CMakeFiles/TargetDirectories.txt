@@ -1,0 +1,10 @@
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/install/strip.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/install/local.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/install.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/list_install_components.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/rebuild_cache.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/edit_cache.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/test.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/oncollision.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/stop_oncollision_uninstall.dir
+/home/ipleiria/dev_workspace/build/stop_oncollision/CMakeFiles/uninstall.dir

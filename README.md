@@ -153,7 +153,17 @@ As atividades para cada tutorial estão disponíveis em [/2_Atividades/2-2_Ativi
 
 Caso tenha interesse em criar um bloco deve seguir os passos neste pasta [5.Ardublock](https://github.com/ipleiria-robotics/iModBot/blob/master/5_AduBlock/README.md)
 
+# Realidade Aumentada
+
+Utilizando o motor de jogos Unity3d, ROS2 e a nossa biblioteca para o robô, cria o teu mundo virtual, projeta-o no mundo real e vê o robô a interagir com ele.
+Esta funcionalidade ainda está em desenvolvimento sendo que por agora ainda é muito limitada. 
+
 # Autores
  
- - Abel Teixeira   - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Eletrónica e Redes de Telecomunicações [Ab-Tx](https://github.com/Ab-Tx)
- - Samuel Lourenço - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Automação, Robótica e manutenção Industrial [SamueLourenc0](https://github.com/SamueLourenc0)
+- Abel Teixeira   - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Eletrónica e Redes de Telecomunicações, GitHub: [Ab-Tx](https://github.com/Ab-Tx)
+- Samuel Lourenço - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Automação, Robótica e manutenção Industrial, GitHub: [SamueLourenc0](https://github.com/SamueLourenc0)
+- Nelson Henriques - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Automação, Robótica e manutenção Industrial, GitHub: [NetchoExtreme](https://github.com/NetchoExtreme)
+
+## Orientado por:
+- Luís Conde - [Politécnico de Leiria](https://www.ipleiria.pt), GitHub: [Luís Conde](https://github.com/conde-ISR-UC-PT)
+- Carlos Neves - [Politécnico de Leiria](https://www.ipleiria.pt), [INESC-Coimbra](http://inescc.estg.ipleiria.pt/), GitHub: [Carlos Neves](https://github.com/carlos-neves)
