@@ -1,4 +1,3 @@
-
 # Realidade Aumentada
 
 Utilizando o motor de jogos Unity3d, ROS2 e a nossa biblioteca para o robô, cria o teu mundo virtual, projeta-o no mundo real e vê o robô a interagir com ele.
@@ -8,15 +7,15 @@ Esta funcionalidade ainda está em desenvolvimento sendo que por agora ainda é 
 ## Requisitos
 
  - Ubuntu 20.04 (nativo ou Virtual)
- -- Consulta o documento [Tutorial_SetUp_VM](link) para o instalares numa Virtual Machine (é recomendado a instalação nativa).
+ -- Consulta o documento [Tutorial_SetUp_VM](https://github.com/ipleiria-robotics/iModBot/blob/master/6_Realidade_Aumentada/Tutorial_SetUp_VM.pdf) para o instalares numa Virtual Machine (é recomendado a instalação nativa).
  
   - Docker  
- -- Consulta o documento [Tutorial_docker](link) para o instalares e perceberes o seu funcionamento.
+ -- Consulta o documento [Tutorial_docker](https://github.com/ipleiria-robotics/iModBot/blob/master/6_Realidade_Aumentada/Tutorial_docker.pdf) para o instalares e perceberes o seu funcionamento.
 
 
 ## Utilização
 
-1. Abre um terminal na pasta [iModBot-Docker](link).
+1. Abre um terminal na pasta [iModBot-Docker](https://github.com/ipleiria-robotics/iModBot/tree/master/6_Realidade_Aumentada/iModBot-Docker).
    
 2. Cria a imagem Docker (este passo demora algum tempo).
     ```bash
@@ -30,11 +29,11 @@ Esta funcionalidade ainda está em desenvolvimento sendo que por agora ainda é 
     ```bash
     $ code
     ```
-	  --  Instala a  extensão PlatformIO e abre a pasta [VScode_Workspace\ESP32-ROS2_iModBot](link), coloca o id e a palavra pass da tua rede Wifi e o IP do container.
+	  --  Instala a  extensão PlatformIO e abre a pasta [VScode_Workspace\ESP32-ROS2_iModBot](https://github.com/ipleiria-robotics/iModBot/tree/master/6_Realidade_Aumentada/iModBot-Docker/VScode_Workspace/ESP32-ROS2_iModBot), coloca o id e a palavra pass da tua rede Wifi e o IP do container.
 	  -- Faz Upload do programa para o ESP32.
 	  -- Guarda as alterações e fecha o VScode.
     
-5. Inicia o `Unity Hub` e instala o editor mais recente e abre o projeto que se encontra na pasta [iModBot-Docker\Unity_Workspace](link).
+5. Inicia o `Unity Hub` e instala o editor mais recente e abre o projeto que se encontra na pasta [iModBot-Docker\Unity_Workspace](https://github.com/ipleiria-robotics/iModBot/tree/master/6_Realidade_Aumentada/iModBot-Docker/Unity_Workspace/).
     ```bash
     $ cd unity && ./UnityHub.AppImage
     ```
@@ -65,4 +64,6 @@ Esta funcionalidade ainda está em desenvolvimento sendo que por agora ainda é 
     $ MicroXRCEAgent udp4 -p 2018
     ```
 Está tudo a postos para comecares a tua jornada com a realidade aumentada.
-Sempre que quiseres reabrir o container corre o script [start-docker-container](link).
+Sempre que quiseres reabrir o container corre o script [start-docker-container](https://github.com/ipleiria-robotics/iModBot/blob/master/6_Realidade_Aumentada/iModBot-Docker/start-docker-container.bash).
+
+Video demostrativo: [https://youtu.be/DlAx3p5d99E](https://youtu.be/DlAx3p5d99E)
