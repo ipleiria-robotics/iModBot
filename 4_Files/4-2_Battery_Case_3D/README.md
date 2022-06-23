@@ -1,19 +1,19 @@
 # 3D Battery cases
 
-### Prototype 1
+__Prototype 1__
 
-__bat case v9.step__
-Features the most recent version for single battery case for this prototype
+`bat case v9.step`
+Features the most recent version for single battery case for this prototype.
 
-### Prototype 2
+__Prototype 2__
 
-__Battery_Holder.skp__
-Features the most recent version for single battery case for this prototype
+`Battery_Holder.skp`
+Features the most recent version for single battery case for this prototype.
 
-__Battery_Holder_Stacked.skp__
-Features an inside battery stacking with no middle layer. Simple use and faster printing but not recommended
+`Battery_Holder_Stacked.skp`
+Features an inside battery stacking with no middle layer. Simple use and faster printing but not recommended.
 
-__Battery_Holder_Slot.skp__
+`Battery_Holder_Slot.skp`
 Features an inside battery stacking with removable middle layer.
 
 ## Information
