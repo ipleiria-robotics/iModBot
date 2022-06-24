@@ -1,9 +1,1 @@
-
-# Biblioteca iMoBot
-
-Esta biblioteca escrita na linguagem de programação C/C++ deverá facilitar o uso do robô iModBot@ipleiria.pt.
-
-**Instruções para a instalação da biblioteca** encontram-se em [/3_Documentacao/3-3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3-3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf).
-
-**Descrição das funções da biblioteca** encontra-se em [/3_Documentacao/3-5_Manual_Tecnico_iModBot.pdf](https://github.com/ipleiria-robotics/iModBot/blob/master/3_Documentacao/3-5_Manual_Tecnico_iModBot.pdf).
-
+# Dualshock and iModBot LibrariesThese libraries were written in C/C++ programming language. You will find instructions on how to install these and upload them to the ESP32 inside the  [3-Documents](https://github.com/DimitriOnLSD/iModBot/tree/master/3_Documents) folder. Inside you can also find information regarding the robots' various functions.
