@@ -158,11 +158,16 @@ Caso tenha interesse em criar um bloco deve seguir os passos neste pasta [5.Ardu
 Utilizando o motor de jogos Unity3d, ROS2 e a nossa biblioteca para o robô, cria o teu mundo virtual, projeta-o no mundo real e vê o robô a interagir com ele.
 Esta funcionalidade ainda está em desenvolvimento sendo que por agora ainda é muito limitada. 
 
+# Controladores remotos
+
+Com os controladores das consolas populares PS3 e PS4, consegue controlar o robot à distância via bluetooth. A biblioteca é fácil de instalar e apenas necessita de um programa, o Arduino IDE. Basta colocar valores desejados no código, tanto como sensibilidade de direção, aceleração dos motores, velocidade máxima, e muito mais!
+
 # Autores
  
 - Abel Teixeira   - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Eletrónica e Redes de Telecomunicações, GitHub: [Ab-Tx](https://github.com/Ab-Tx)
 - Samuel Lourenço - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Automação, Robótica e manutenção Industrial, GitHub: [SamueLourenc0](https://github.com/SamueLourenc0)
 - Nelson Henriques - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Automação, Robótica e manutenção Industrial, GitHub: [NetchoExtreme](https://github.com/NetchoExtreme)
+- Paulo Sousa - estudante do [Politécnico de Leiria](https://www.ipleiria.pt/cursos/) do curso TeSP em Eletrónica e Redes de Telecomunicações, GitHub [DimitriOnLSD](https://github.com/DimitriOnLSD)
 
 ## Orientado por:
 - Luís Conde - [Politécnico de Leiria](https://www.ipleiria.pt), GitHub: [Luís Conde](https://github.com/conde-ISR-UC-PT)
