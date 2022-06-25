@@ -1,57 +1,45 @@
+# Documents
 
-# Documentação
+Inside this folder you will find documentation for the various project aspects:
 
-Nesta pasta pode encontrar documentação para varios aspetos do projeto.
+- **3-00_iModBot_Components_List.xlsx**
+  - Supplies the list components used in iModBot, with some of their respective buy stores and prices.
 
-- **3.1_Como_comunicar_com_o_ESP32.pdf**
-  - Explica como conectar a placa de desenvolvimento ESP32 ao software Arduino IDE.
+- **3-01_iModBot_Tech_Manual.pdf**
+  - Describes the components used in the project, the functions provided by the library and other aspects.
+
+- **3-02_iModBot_Assembly_And_Software_Installation_Tutorial.pdf**
+  - Teaches you how to install the necessary tools and how to assemble the robot.
+
+- **3-03_iModBot_Offline_Assembly_Guide.pdf**
+  - Provides a list of components and shows the connections that must be made between the components.
+
+- **3-04_Add_ESP32_Arduino_IDE.pdf**
+  - Explains how to connect the ESP32 development board to the Arduino IDE software.
+
+- **3-05_Add_ArduBlock_Arduino_IDE.pdf**
+  - Explains how to install ArduBlock in the Arduino IDE software.
   
-- **3.2_Como_instalar_ArduBlock_no_Arduino_IDE.pdf**
-  - Explica como instalar o ArduBlock no software Arduino IDE.
+- **3-06_Add_Arduino_IDE_Libraries.pdf**
+  - Explains how to install libraries in the Arduino IDE software.
   
-- **3.3_Como_instalar_bibliotecas_no_Arduino_IDE.pdf**
-  - Explica como instalar biblioteacas no software Arduino IDE.
-  
-- **3.4_Guia_de_montagem_offline.pdf**
-  - Fornece uma lista de componentes e apresenta as ligações que devem ser efetuadas entre os componentes.
-  
-- **3.5_Manual_Tecnico_iModBot.pdf**
-  - Descreve os componentes utilizados no projeto, as funções proporcionadas pela biblioteca entre outros aspetos.
-  
-- **3.6_iModRob_Eagle_2_layer_board.zip**
-  - Também é disponibilizado o projeto para a aplicação Autodesk Eagle que contém uma placa de circuito impresso (PCB) que facilitará a montagem dos componentes no robô.
+- **3-07_Edit_ArduBlock_Files.pdf**
+  - It teaches how to install all the tools needed to edit the ArduBlock Workspace.
 
-- **3.7_Listagem_de_componentes_mais_links_de_compra_auxiliares**
-  - Também é disponibilizado uma lista de componentes completa a incluir links de lojas online onde poderas encontrar os componentes em custos mais baratos.
+- **3-08_Create_ArduBlock_Blocks.pdf**
+  - Teaches how to create a block in ArduBlock using the Eclipse IDE.
 
-- **3.8_ArduBlock2020**
-  - Para começar a programar o robô por blocos, basta seguir o tutorial 3.3_Como_instalar_ArduBlock_no_Arduino_IDE.pdf e deve ser usado este ficheiro para ter os blocos prontos para programar o robô.
+- **3-09_Add_Eclipse_IDE_Libraries.pdf**
+  - Explains how to add libraries to the Eclipse IDE software.
 
-- **3.9_Guia_basica_de_montagem_de_circuitos_eletricos**
-  - É fornecida uma guia basica de montagem para conhecer a Breadboard e o seu funcionamento de face à montagem de placas eletrónicas nesta ferramenta.
-  
-# Esquema eletrónico e PCB
+- **3-10_Update_JDK.pdf**
+  - Guide to update the Java version for using the Eclipse IDE.
 
+- **3-11_Openblock_Error_Tutorial.pdf**
+  - Troubleshooting guide for error in openblocks install.
 
-  - Foram inseridos vários pontos de teste na placa de circuito impresso. 
-  - Foram adicionados jumpers para poder desconectar a alimentação geral do circuito e/ou a alimentação da placa de desenvolvimento DOIT ESP32 Devkit V1 e/ou a alimentação do módulo baseado no integrado L293D.
+- **3-12_Basic_Eletronics_Assembly_Guide.pdf**
+  - A basic assembly guide is provided to acquaint you with the Breadboard and how it works when mounting electronic boards in this tool.
 
-**Esquema eletrónico**:
-
- <p align="center">
-  <img width="882" height="466" src="https://user-images.githubusercontent.com/60508542/87034511-d5f9b100-c1df-11ea-8ed3-99767a2c4866.png">
-</p>
-
-
-**Placa de circuito impresso** (sem o plano de massa visível):
-
- <p align="center">
-  <img width="768" height="798" src="https://user-images.githubusercontent.com/60508542/87034508-d4c88400-c1df-11ea-97bc-7f3ebd613b46.png">
-</p>
-
-
-    Uma boa opção para conectar/desconectar a alimentação seria o uso de conectores "jumper two pins".
-    
- <p align="center">
-  <img width="250" height="250" src="https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/im120707001_6.jpg">
-</p>
+- **3-13_Remote_Bluetooth_Dualshock.pdf**
+  - A tutorial is provided on how to set up the code to pair a dualshock 3 or 4 controller to control the robot remotely via Bluetooth.
