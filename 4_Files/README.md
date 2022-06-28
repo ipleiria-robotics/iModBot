@@ -12,7 +12,7 @@ Folder tree:
 
 To be able to edit source files inside the folders, you will need the following programs:
 
-`Eclipse IDE` This is used to edit the ArduBlock-Workspace file. In there, you can edit or create blocks, change default values or create new ones, change blocks image, etc. Tutorials for installing this program, along with JDK and maven, can be found in the ![3-Documents](https://github.com/DimitriOnLSD/iModBot/tree/master/3_Documents) folder.
+`Eclipse IDE` This is used to edit the ArduBlock-Workspace file. In there, you can edit or create blocks, change default values or create new ones, change blocks image, etc. Tutorials for installing this program, along with JDK and maven, can be found in the ![3-Documents](https://github.com/ipleiria-robotics/iModBot/tree/master/3_Documents) folder.
 
 `EAGLE` This is used to open and edit the first PCB version. 
 
