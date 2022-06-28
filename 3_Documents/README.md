@@ -2,7 +2,7 @@
 
 Inside this folder you will find documentation for the various project aspects and their respective DOCX files for editing:
 
-- **src
+- `src`
   - PDF source files.
 
 - **3-00_iModBot_Components_List.xlsx**
