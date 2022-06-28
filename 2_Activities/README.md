@@ -1,9 +1,8 @@
+# Activities
 
-# Atividades
+Activities and their solutions are provided. 
+These are divided into two categories:
+- Activities for ArduBlock;
+- Activities for Arduino IDE.
 
-São disponibilizadas atividades e respetivas soluções. 
-Estas estão divididas em duas categorias:
-- Atividades para ArduBlock;
-- Atividades para Arduino IDE.
-
-São disponibilizados tutoriais para cada atividade, estes estão presentes em [/1_Tutoriais/](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais)
+Tutorials for each activity are available at [1_Tutorials](https://github.com/ipleiria-robotics/iModBot/tree/master/1_Tutoriais)
