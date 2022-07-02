@@ -16,6 +16,11 @@ Features an inside battery stacking with no middle layer. Simple use and faster 
 `Battery_Holder_Slot.skp`
 Features an inside battery stacking with removable middle layer.
 
+__Others__
+
+`motors_side_support_v3.stl`
+3D printable piece for side supports in iModBot chassis.
+
 ## Information
 
 This folder contains all cases used in iModBot for the batteries. All outter holes dimensions are specifically designed for the iModBot chassis alone. 
