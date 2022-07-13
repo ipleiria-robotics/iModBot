@@ -1,4 +1,4 @@
-# dwm1001-keil-examples
+# esp32-dwm1001_Workspace
 
 *Note that the examples below consist in very basic application using the UWB features of the DWM1001C. These examples are not intended to be used in a commercial application and may not comply with regulation requirements.*
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project contains C simple examples for DWM1001 hardware and its derivatives, such as the DWM1001-DEV board.
+This project contains C simple examples for DWM1001 hardware and its derivatives, such as the DWM1001-DEV board and Development Kit Board MDEK1001.
 
 The DWM1001 module is a Ultra Wideband (UWB) and Bluetooth hardware based on DecaWave's DW1000 IC and Nordic Semiconductor nrF52832 SoC. It allows to build a scalable Two-Way-Ranging (TWR) RTLS systems with up to thousands of tags. 
 
@@ -17,14 +17,15 @@ The C simple examples allow user to discover the key functionalities offered by 
 
 The project is built as follow : 
 ```
-dwm1001-keil-examples/
-├── boards            // DWM1001-DEV board specific definitions
-├── deca_driver       // DW1000 API software package 2.04 
-├── examples          // C simple examples 
-│   ├── ss_twr_init   // Single Sided Two Way Ranging Initiator example
-│   ├── ss_twr_resp   // Single Sided Two Way Ranging Responder example
-│   └── twi_accel     // LIS2DH12 accelerometer example with Two Wire interface 
-├── nRF5_SDK_14.2.0   // Nordic Semiconductor SDK 14.2 for nrF52832
+esp32-dwm1001_Workspace/
+├── boards             // DWM1001-DEV board specific definitions
+├── deca_driver        // DW1000 API software package 2.04 
+├── examples           // C simple examples 
+│   ├── ss_twr_init    // Single Sided Two Way Ranging Initiator example
+│   ├── ss_twr_resp    // Single Sided Two Way Ranging Responder example
+│   └── twi_accel      // LIS2DH12 accelerometer example with Two Wire interface 
+├── nRF5_SDK_14.2.0    // Nordic Semiconductor SDK 14.2 for nrF52832
+├── ESP32_UART_DWM1001 // UART communication interface with ESP32-DevKitC-V4
 └── README.md
 ```
 For more information about nrF52832 and nrF SDK, please visit http://infocenter.nordicsemi.com/
@@ -135,8 +136,3 @@ dwm1001-keil-examples/examples/twi_accel/
      └── twi_accel.uvprojx  // Keil uvision project
 ```
 The application function is detailed in the main.c file.
-
-
-
-
-
