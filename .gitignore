@@ -5,7 +5,7 @@
 *.o
 *.ko
 *.obj
-*.elf
+#*.elf
 
 # Linker output
 *.ilk
@@ -34,7 +34,7 @@
 *.app
 *.i*86
 *.x86_64
-*.hex
+#*.hex
 
 # Debug files
 *.dSYM/
@@ -51,7 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-[Ll]ibrary/
+#[Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
@@ -72,14 +72,12 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
 *.userprefs
 *.pidb
 *.booproj
-*.svd
 *.pdb
 *.mdb
 *.opendb
@@ -94,10 +92,13 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
 *.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# 14-07-2022
+# Removed *.hex, *.elf, *.svd, *.sln and [Ll]ibrary/ for RTLS files
+
 
 
