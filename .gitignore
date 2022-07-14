@@ -34,7 +34,7 @@
 *.app
 *.i*86
 *.x86_64
-#*.hex
+*.hex
 
 # Debug files
 *.dSYM/
@@ -93,15 +93,13 @@ sysinfo.txt
 
 # Builds
 *.unitypackage
+*.emSession
 
 # Crashlytics generated file
 crashlytics-build.properties
 
-#SEGGER
-*.emSession
-
 # update 14-07-2022
-# Removed *.hex, *.elf, *.apk, *.svd, *.sln and [Ll]ibrary/ for RTLS files
+# Removed *.apk, *.svd, *.sln and [Ll]ibrary/ for RTLS files
 
 
 
