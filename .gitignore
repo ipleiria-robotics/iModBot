@@ -97,6 +97,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#SEGGER
+*.emSession
+
 # update 14-07-2022
 # Removed *.hex, *.elf, *.apk, *.svd, *.sln and [Ll]ibrary/ for RTLS files
 
